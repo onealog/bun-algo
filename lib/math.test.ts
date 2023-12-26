@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import math from "../lib/math";
+import math from "./math";
 
 test("2 + 2", () => {
   expect(math(2, 2)).toBe(4);
